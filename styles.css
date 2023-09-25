@@ -116,7 +116,7 @@ a:active {
 
 /* WELCOME */
 
-.welcome {
+.welcome-section {
   padding: 120px 0 100px 0;
 }
 
@@ -167,11 +167,15 @@ a:active {
   width: 100%;
   max-width: 500px;
 }
+
+.thoughts-img p {
+  text-align: center;
+}
  
 
 /*PROJECTS*/
 
-.work {
+.projects {
   padding: 80px 0 45px 0;
 }
 
@@ -190,6 +194,7 @@ a:active {
 
 .project-text {
   width: 100%;
+  margin-bottom: 1rem;
 }
 
 .project-img {
