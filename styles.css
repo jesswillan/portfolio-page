@@ -185,7 +185,7 @@ a:active {
   grid-template-rows: auto;
 }
 
-.project {
+.project-tile {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: auto;
@@ -202,11 +202,9 @@ a:active {
 }
 
 .project-img img {
-  /* max-width: 600px; */
   box-shadow: 6px 6px var(--main-white);
   border: 4px solid var(--main-white);
   border-radius: 1%;
-  /* padding: 8px; */
   background: black;
   width: 100%;
   max-width: 600px;
@@ -275,7 +273,7 @@ footer p {
   max-width: 500px;
 }
 
-.project {
+.project-tile {
   display: grid;
   grid-template-columns: 1fr;
 }
